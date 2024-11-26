@@ -58,4 +58,3 @@ while IFS= read -r HOST; do
 done < "$HOSTS_FILE"
 
 echo "Brute-force attack complete. Successful credentials saved to $SUCCESS_FILE."
-
